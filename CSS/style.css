@@ -77,27 +77,34 @@ body {
   color: #2264c3;
 }
 
-/* Container que centraliza tudo */
+/* Container card de serviços */
 .card-container {
-  max-width: 200px;
+  max-width: 180px;
   width: 100%;
-  margin: 300px auto 0;
+  margin: 350px auto 0;
+  margin-left: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   z-index: 10;
 }
 
 /* Logo redonda acima do card */
 .logo-servico {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   overflow: hidden;
   border: 4px solid #f4d172;
   background-color: #ffffff;
-  margin-bottom: -60px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;         /* Centraliza verticalmente */
+  justify-content: center;     /* Centraliza horizontalmente */
+  position: absolute; 
+  top: -35px;         
+  left: 50px;           
   z-index: 20;
 }
 
@@ -107,21 +114,23 @@ body {
   object-fit: contain;
 }
 
+
 /* O card em si */
 .card-servicos {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 60px 20px 20px;
-  border-radius: 20px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(8px);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.959), rgba(255, 255, 255, 0.15));
+  padding: 50px 16px 16px;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   text-align: left;
   width: 100%;
 }
 
 .card-servicos h2 {
-  font-size: 20px;
+  font-size: 23px;
   color: #004aad;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   font-weight: 600;
   text-align: left;
 }
@@ -135,7 +144,7 @@ body {
   position: relative;
   padding-left: 14px;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-size: 14px;
   color: #000000;
 }
 
