@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petshop do Brendow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="centralizador">
+
+      <!-- Botão do Menu -->
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+      <!-- Menu Lateral -->
+      <nav class="side-menu" id="sideMenu">
+        <a href="#home">Home</a>
+        <a href="#agendar">Agende seu Serviço</a>
+        <a href="#loja">Nossa Lojinha</a>
+        <a href="#redes">Nossas Redes</a>
+        <a href="#jogos">Área Play</a>
+        <a href="#clientes">Nossos Clientes</a>
+        <a href="#contato">Fale Conosco</a>
+        <a href="#sobre">Sobre Nós</a>
+      </nav>
+
+    </div>
+
+    <!-- Script JS -->
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("sideMenu");
+        menu.classList.toggle("show");
+      }
+
+      // Fecha o menu ao clicar em qualquer item
+      document.querySelectorAll('.side-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+          document.getElementById("sideMenu").classList.remove("show");
+        });
+      });
+    </script>
+  </body>
+</html>
+
+
