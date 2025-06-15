@@ -1,0 +1,6 @@
+Backup da Home criado em: 13/06/2025
+Versão: Página HOME finalizada com papel parede, menu suspenso, card de serviços e rodapé ajustado.
+- HTML: Home13-06-2025.html
+- CSS: Home13-06-2025.css
+- Cores principais: #4c80ea, #ffffff, #000000, #004aad, #f4d172, #ffde59
+- Tamanho do papel de parede: 1080px / 1920px
