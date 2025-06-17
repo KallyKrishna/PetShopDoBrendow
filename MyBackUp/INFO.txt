@@ -1,0 +1,37 @@
+
+🌐 RESUMO DE ESTILO – SITE PETSHOP DO BRENDOW
+
+📐 LAYOUT E MEDIDAS
+- Largura máxima da área de conteúdo (centralizador): 600px
+- Centralização: Todos os elementos principais estão centralizados na arte de fundo
+- Logo sobreposta: posicionada com 'position: absolute' no canto superior esquerdo do card
+- Menu lateral (hambúrguer): aparece no topo direito da área centralizada
+
+🎨 CORES UTILIZADAS
+| Elemento                          | Cor                            | Código Hex                      |
+|----------------------------------|--------------------------------|---------------------------------|
+| Fundo da página (imagem)         | Papel de parede personalizado  | ../IMAGENS/PapelDeParedeBrendow.png
+| Destaques dourados               | Amarelo ouro                   | #f4d172 e #ffde59
+| Texto de menu/card/endereço      | Azul escuro                    | #003366, #004aad, #2264c3
+| Sombra de texto                  | Preto sutil                    | rgba(0, 0, 0, 0.7)
+| Bolhas decorativas               | Branco translúcido e azul      | rgba(255,255,255,0.6) e rgba(76,128,234,0.3)
+
+🔠 FONTES
+- Família Principal: 'Poppins', sans-serif
+- Estilo: Fonte moderna, limpa e legível
+- Peso padrão: 500 (semibold) e 700 (bold) em títulos
+
+📱 RESPONSIVIDADE (MOBILE)
+- Ativada para largura ≤ 600px
+- Ajustes incluem:
+  - Redução de tamanho da logo
+  - Menor espaçamento/margem
+  - Texto menor para listas e rodapé
+  - Menu e ícones mais acessíveis em toques
+
+🧩 COMPONENTES DO SITE
+- Menu Hambúrguer: Canto superior direito com fundo translúcido
+- Card de Serviços: Sem background, com ícones de bolinhas douradas e texto alinhado à esquerda
+- Logo Redonda: Sobreposta ao card com sombra dourada
+- Redes Sociais: Ícones flutuantes no lado direito
+- Rodapé com Endereço: Centralizado, texto com sombra
