@@ -368,8 +368,8 @@ transform: translateY(-10px) rotate(2deg);
   }
 
   .icone-patinha {
-    top: 25px;
-    right: -120px;
+    top: 40px;
+    right: 20px;
   }
 
   .icone-patinha img {
@@ -385,7 +385,7 @@ transform: translateY(-10px) rotate(2deg);
   }
 
   .menu-topo ul {
-    gap: 6px;
+    gap: 10px;
   }
 
   .menu-topo ul li a {
@@ -394,8 +394,8 @@ transform: translateY(-10px) rotate(2deg);
   }
 
   .logo-central {
-    margin-top: -80px;
-    margin-bottom: 60px;
+    margin-top: -320px;
+    margin-bottom: 100px;
     scale: 0.9;
   }
 
@@ -405,12 +405,12 @@ transform: translateY(-10px) rotate(2deg);
   }
 
   .logo-central img {
-    max-width: 140px;
+    max-width: 170px;
   }
 
   .botoes-principais {
-    top: -40px;
-    gap: 12px;
+    top: -60px;
+    gap: 50px;
     padding: 10px;
     margin: 0;
   }
@@ -418,13 +418,13 @@ transform: translateY(-10px) rotate(2deg);
   .botao-amarelo,
   .botao-azul {
     font-size: 16px;
-    padding: 8px 16px;
+    padding: 10px 15px;
   }
 
   .imagem-pets {
-    margin-top: -30px;
+    margin-top: -10px;
     margin-bottom: 40px;
-    max-width: 95%;
+    max-width: 100%;
   }
 
   .imagem-pets img {
@@ -433,8 +433,8 @@ transform: translateY(-10px) rotate(2deg);
   }
 
   .bolha {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
   .bolha i {
@@ -442,20 +442,20 @@ transform: translateY(-10px) rotate(2deg);
   }
 
   .bolha.facebook {
-    top: auto;
+    top: 390px;
     bottom: 130px;
-    left: 30px;
+    left: 50px;
   }
 
   .bolha.whatsapp {
-    top: auto;
+    top: 340px;
     bottom: 190px;
-    left: 100px;
+    left: 150px;
   }
 
   .bolha.instagram {
-    top: auto;
+    top: 390px;
     bottom: 130px;
-    right: 30px;
+    right: 50px;
   }
 }
