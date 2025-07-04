@@ -22,16 +22,42 @@
   <!-- ÁREA CENTRALIZADA -->
   <div class="centralizador">
 
-<!-- Menu Topo Horizontal -->
-<header class="menu-topo">
-  <nav>
-    <ul class="menu-horizontal">
-      <li><a href="#sobre">SOBRE NÓS</a></li>
-      <li><a href="#servicos">NOSSOS SERVIÇOS</a></li>
-      <li><a href="#vip">ÁREA VIP</a></li>
-    </ul>
-  </nav>
-</header>
+    <!-- Menu Topo Horizontal com Submenus -->
+    <header class="menu-topo">
+      <nav>
+        <ul class="menu-horizontal">
+          <li class="dropdown">
+            <a href="#sobre">SOBRE NÓS</a>
+            <ul class="submenu">
+              <li><a href="#brendow">Sobre o Brendow</a></li>
+              <li><a href="#visao">Nossa Visão</a></li>
+              <li><a href="#missao">Nossa Missão</a></li>
+              <li><a href="#valores">Nossos Valores</a></li>
+              <li><a href="#parceiros">Nossa Localização</a></li>
+              <li><a href="#redes">Fale Conosco</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#servicos">NOSSOS SERVIÇOS</a>
+            <ul class="submenu">
+              <li><a href="#petvet">PetVet</a></li>
+              <li><a href="#banho-tosa">Banho e Tosa</a></li>
+              <li><a href="#taxi">Táxi Pet</a></li>
+              <li><a href="#petshop">PetShop</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#vip">ÁREA VIP</a>
+            <ul class="submenu">
+              <li><a href="#promo">Promoções</a></li>
+              <li><a href="#cadastro">Cadastre-se</a></li>
+              <li><a href="#login">LOGIN</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
 
       <!-- Menu Hamburguer Patinha -->
       <div class="icone-patinha" onclick="toggleMenu()">
@@ -86,26 +112,15 @@
       <img src="IMAGENS/PETS.png" alt="Pets no banho">
     </div>
 
-<!-- Rodapé -->
-<footer class="endereco-container">
-
-  <!-- Botão que redireciona para o Google Maps -->
-  <a
-    class="endereco-link"
-    href="https://maps.app.goo.gl/3oMXgNVpzRJ5AqKP7"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Conheça nosso Espaço  
-  </a>
-
-  <!-- Direitos reservados e política -->
-  <div class="footer-info">
-    <a href="#" class="politica-link">Política de Privacidade</a>
-    <p>© 2025 PetShop do Brendow. Todos os direitos reservados.</p>
+    <!-- Rodapé -->
+    <div class="endereco-container">
+      <h3>Conheça nosso Espaço</h3>
+      <p>
+        Rua Rosa Coulicoff, 369 – Jardim Diamante / ZL<br>
+        SJC – 12223-210
+      </p>
+    </div>
   </div>
-</footer>
-
 
   <!-- Script do menu patinha -->
   <script>
